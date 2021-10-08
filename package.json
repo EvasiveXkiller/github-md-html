@@ -1,7 +1,7 @@
 {
   "name": "github-md-html",
-  "version": "0.1.13",
-  "description": "A simple command line utility to convert markdown files to html files",
+  "version": "0.1.14",
+  "description": "A simple command line utility to convert markdown files to html files in GitHub styles",
   "main": "lib/toHTML.js",
   "bin": {
     "toHTML": "./bin/tohtml.js"
@@ -14,6 +14,19 @@
     "type": "git",
     "url": "git+https://github.com/EvasiveXkiller/markdownToHtml.git"
   },
+  "keywords": [
+    "markdown",
+    "Markdown",
+    "converter",
+    "markdownConverter",
+    "mdtohtml",
+    "markdownhtml",
+    "md2html",
+    "md-to-html",
+    "markdown-github",
+    "github",
+    "gh"
+  ],
   "author": {
     "name": "EvasiveXkiller",
     "email": "evasivexkiller@gmail.com"
