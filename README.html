@@ -199,7 +199,43 @@ h1, h2, h3 {
 </style>
 <body>
 <div id='content'>
-<h1 id="markdowntohtml">markdownToHtml</h1>
-<p>A simple command line utility to convert markdown files to html files</p></div>
+<h1 id="markdown-to-html">Markdown to HTML</h1>
+<p>A simple command line utility to convert markdown files to html files</p>
+<h2 id="how-to-use">How to use</h2>
+<pre><code>npm i -D markdownTohtml
+
+npm run toHTML -- --input=.\path\to\your\readme.md --output=.\path\to\your\output.html
+Ex.
+npm run toHTML -- --input=.\README.md --output=.\README.html
+</code></pre>
+<h3 id="switches">Switches</h3>
+<table>
+<thead>
+<tr>
+<th>Switch</th>
+<th>Required</th>
+<th>Default</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>input</code></td>
+<td><code>true</code></td>
+<td>undefined</td>
+</tr>
+<tr>
+<td><code>output</code></td>
+<td><code>true</code></td>
+<td>undefined</td>
+</tr>
+<tr>
+<td><code>title</code></td>
+<td><code>false</code></td>
+<td><code>"README"</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="contributing">Contributing</h2>
+<p>Any PR requests are welcome!</p></div>
 </body>
 </html>
