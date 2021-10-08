@@ -2,6 +2,8 @@
 
 A simple command line utility to convert markdown files to html files in GitHub styles
 
+Example: https://evasivexkiller.github.io/github-md-html/
+
 ## How to use
 
 ### Using `npx`
