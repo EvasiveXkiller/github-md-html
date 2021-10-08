@@ -4,11 +4,12 @@ A simple command line utility to convert markdown files to html files
 
 ## How to use
 
-```
+```shell
 npm i -D markdownTohtml
 
 npm run toHTML -- --input=.\path\to\your\readme.md --output=.\path\to\your\output.html
-Ex.
+
+# Ex.
 npm run toHTML -- --input=.\README.md --output=.\README.html
 ```
 
