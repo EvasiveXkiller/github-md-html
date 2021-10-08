@@ -1,0 +1,27 @@
+{
+  "name": "markdowntohtml",
+  "version": "0.0.0",
+  "description": "A simple command line utility to convert markdown files to html files",
+  "main": "lib/toHTML.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "toHTML" : "node lib/toHTML.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EvasiveXkiller/markdownToHtml.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EvasiveXkiller/markdownToHtml/issues"
+  },
+  "homepage": "https://github.com/EvasiveXkiller/markdownToHtml#readme",
+  "dependencies": {
+    "showdown": "^1.9.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "xo": "^0.45.0"
+  }
+}
