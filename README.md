@@ -4,6 +4,12 @@ A simple command line utility to convert markdown files to html files
 
 ## How to use
 
+### Using `npx`
+```shell
+npx github-md-html --input=.\path\to\your\readme.md --output=.\path\to\your\output.html
+```
+
+### Using `npm`
 ```shell
 npm i -D github-md-html
 

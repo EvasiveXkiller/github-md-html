@@ -1,6 +1,6 @@
 {
   "name": "github-md-html",
-  "version": "0.1.12",
+  "version": "0.1.13",
   "description": "A simple command line utility to convert markdown files to html files",
   "main": "lib/toHTML.js",
   "bin": {
@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "toHTML": "node lib/toHTML.js"
+    "toHTML": "node lib/index.js"
   },
   "repository": {
     "type": "git",
