@@ -1,5 +1,5 @@
 {
-  "name": "markdowntohtml",
+  "name": "github-md-html",
   "version": "0.1.0",
   "description": "A simple command line utility to convert markdown files to html files",
   "main": "lib/toHTML.js",

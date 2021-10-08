@@ -1,11 +1,11 @@
-# Markdown to HTML
+# Github-md-html
 
 A simple command line utility to convert markdown files to html files
 
 ## How to use
 
 ```shell
-npm i -D markdownTohtml
+npm i -D github-md-html
 
 npm run toHTML -- --input=.\path\to\your\readme.md --output=.\path\to\your\output.html
 
