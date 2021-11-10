@@ -21,13 +21,16 @@ npm run toHTML -- --input=.\path\to\your\readme.md --output=.\path\to\your\outpu
 npm run toHTML -- --input=.\README.md --output=.\README.html --title=README.html
 ```
 
-### Switches
+### Flags
 
-| Switch | Required | Default |
+| Flag | Required | Default |
 |---|---|---|
 | `input`  | `true` | undefined |
 | `output`  | `true` | undefined |
 | `title`  | `false` | `"README"` |
+| `keywords`  | `false` | `""` |
+| `description`  | `false` | `""` |
+| `icon`  | `false` | `""` |
 
 ## Contributing
 Any PR requests are welcome!
