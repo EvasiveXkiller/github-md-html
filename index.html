@@ -1,6 +1,9 @@
 <html lang="en">
 <head>
 <title>README</title>
+<meta name="keywords" content='github,html'>
+<meta name="description" content='Simple md converter to html with github styling'>
+<link rel="shortcut icon" href="../package.json">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <style>body {
@@ -199,8 +202,10 @@ h1, h2, h3 {
 </style>
 <body>
 <div id='content'>
-<h1 id="github-md-html">github-md-html</h1>
+
+	<h1 id="github-md-html">github-md-html</h1>
 <p>A simple command line utility to convert markdown files to html files in GitHub styles</p>
+<p>Example: https://evasivexkiller.github.io/github-md-html/</p>
 <h2 id="how-to-use">How to use</h2>
 <h3 id="using-npx">Using <code>npx</code></h3>
 <pre><code class="shell language-shell">npx github-md-html --input=.\path\to\your\readme.md --output=.\path\to\your\output.html --title=README.html
@@ -213,11 +218,11 @@ npm run toHTML -- --input=.\path\to\your\readme.md --output=.\path\to\your\outpu
 # Ex.
 npm run toHTML -- --input=.\README.md --output=.\README.html --title=README.html
 </code></pre>
-<h3 id="switches">Switches</h3>
+<h3 id="flags">Flags</h3>
 <table>
 <thead>
 <tr>
-<th>Switch</th>
+<th>Flag</th>
 <th>Required</th>
 <th>Default</th>
 </tr>
@@ -238,9 +243,26 @@ npm run toHTML -- --input=.\README.md --output=.\README.html --title=README.html
 <td><code>false</code></td>
 <td><code>"README"</code></td>
 </tr>
+<tr>
+<td><code>keywords</code></td>
+<td><code>false</code></td>
+<td><code>""</code></td>
+</tr>
+<tr>
+<td><code>description</code></td>
+<td><code>false</code></td>
+<td><code>""</code></td>
+</tr>
+<tr>
+<td><code>icon</code></td>
+<td><code>false</code></td>
+<td><code>""</code></td>
+</tr>
 </tbody>
 </table>
 <h2 id="contributing">Contributing</h2>
-<p>Any PR requests are welcome!</p></div>
+<p>Any PR requests are welcome!</p>
+	</div>
 </body>
 </html>
+
