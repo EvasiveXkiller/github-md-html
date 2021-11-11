@@ -1,6 +1,6 @@
 {
   "name": "github-md-html",
-  "version": "0.1.2",
+  "version": "0.1.21",
   "description": "A simple command line utility to convert markdown files to html files in GitHub styles",
   "main": "lib/toHTML.js",
   "bin": {
